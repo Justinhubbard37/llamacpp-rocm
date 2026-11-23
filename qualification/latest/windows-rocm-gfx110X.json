@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "kind": "qualification_record",
-  "generated_at": "2026-11-22T20:55:42Z",
+  "generated_at": "2026-11-23T21:20:25Z",
   "build": {
-    "build_id": "llama-windows-rocm-gfx110X-x64.zip@44943352300",
+    "build_id": "llama-windows-rocm-gfx110X-x64.zip@45064436944",
     "artifact": "llama-windows-rocm-gfx110X-x64.zip",
     "os": "windows",
     "gfx_family": "gfx110X",
@@ -13,12 +13,12 @@
       "gfx1102",
       "gfx1103"
     ],
-    "rocm_version": "10.3.0a20261121",
-    "upstream_sha": "e6d624b9a4b95c6b52f5ca384d70b75581f9821a",
+    "rocm_version": "10.3.0a20261122",
+    "upstream_sha": "5bacb7c868a2bc98682de15f447fc1ce17c9c49c",
     "release_tag": null,
     "hardware_validated": false,
     "hardware_gfx_target": null,
-    "run_id": "44943352300",
+    "run_id": "45064436944",
     "run_attempt": "1",
     "runner_env": null
   },
@@ -54,7 +54,7 @@
           "details": {
             "missing": [],
             "files": 1114,
-            "bytes": 996219268
+            "bytes": 996663256
           }
         },
         {
@@ -79,7 +79,7 @@
           "tier": "tier0",
           "status": "pass",
           "gating": true,
-          "duration_ms": 3797,
+          "duration_ms": 3186,
           "error": null,
           "details": {
             "binary": "ggml-hip.dll",
@@ -116,7 +116,7 @@
           "tier": "tier0",
           "status": "pass",
           "gating": true,
-          "duration_ms": 250,
+          "duration_ms": 125,
           "error": null,
           "details": {
             "binaries_scanned": 73,
@@ -207,7 +207,7 @@
           "tier": "tier0",
           "status": "pass",
           "gating": true,
-          "duration_ms": 750,
+          "duration_ms": 234,
           "error": null,
           "details": {
             "returncode": 0,
@@ -222,17 +222,17 @@
           "tier": "tier0",
           "status": "pass",
           "gating": true,
-          "duration_ms": 77,
+          "duration_ms": 46,
           "error": null,
           "details": {
-            "archive_upstream_sha": "e6d624b9a4b95c6b52f5ca384d70b75581f9821a",
-            "expected_upstream_sha": "e6d624b9a4b95c6b52f5ca384d70b75581f9821a",
-            "archive_rocm_version": "10.3.0a20261121",
-            "expected_rocm_version": "10.3.0a20261121",
+            "archive_upstream_sha": "5bacb7c868a2bc98682de15f447fc1ce17c9c49c",
+            "expected_upstream_sha": "5bacb7c868a2bc98682de15f447fc1ce17c9c49c",
+            "archive_rocm_version": "10.3.0a20261122",
+            "expected_rocm_version": "10.3.0a20261122",
             "version_returncode": 0,
-            "version_output": "version: 1.0.0-dev (build 12623, commit e6d624b9a)\nbuilt with Clang 24.0.0 for Windows",
-            "binary_commit": "e6d624b9a",
-            "binary_build_number": 12623,
+            "version_output": "version: 1.0.0-dev (build 12642, commit 5bacb7c86)\nbuilt with Clang 24.0.0 for Windows",
+            "binary_commit": "5bacb7c86",
+            "binary_build_number": 12642,
             "compared": [
               "archive commit",
               "archive ROCm version",
@@ -369,14 +369,14 @@
     "hardware_validated": []
   },
   "versions": {
-    "rocm_nightly": "10.3.0a20261121",
-    "llamacpp_commit": "e6d624b9a4b95c6b52f5ca384d70b75581f9821a",
-    "binary_reports_commit": "e6d624b9a",
-    "binary_reports_build": 12623
+    "rocm_nightly": "10.3.0a20261122",
+    "llamacpp_commit": "5bacb7c868a2bc98682de15f447fc1ce17c9c49c",
+    "binary_reports_commit": "5bacb7c86",
+    "binary_reports_build": 12642
   },
   "bundle": {
     "files": 1114,
-    "bytes": 996219268,
+    "bytes": 996663256,
     "manifest": [
       [
         "LICENSE",
@@ -388,7 +388,7 @@
       ],
       [
         "amdhip64_7.dll",
-        17416704
+        17480192
       ],
       [
         "ggml-base.dll",
@@ -396,7 +396,7 @@
       ],
       [
         "ggml-cpu.dll",
-        945152
+        946688
       ],
       [
         "ggml-hip.dll",
@@ -420,11 +420,11 @@
       ],
       [
         "libhipblaslt.dll",
-        2925568
+        2999808
       ],
       [
         "libtensilelite-host.dll",
-        5153792
+        5201408
       ],
       [
         "llama-batched-bench-impl.dll",
@@ -456,11 +456,11 @@
       ],
       [
         "llama-common.dll",
-        9112576
+        9205760
       ],
       [
         "llama-completion-impl.dll",
-        158208
+        160768
       ],
       [
         "llama-completion.exe",
@@ -480,7 +480,7 @@
       ],
       [
         "llama-diffusion-cli.exe",
-        92672
+        94720
       ],
       [
         "llama-embedding.exe",
@@ -612,7 +612,7 @@
       ],
       [
         "llama-server-impl.dll",
-        9984000
+        10028544
       ],
       [
         "llama-server.exe",
@@ -648,7 +648,7 @@
       ],
       [
         "llama.dll",
-        4168704
+        4180992
       ],
       [
         "llama.exe",
@@ -672,7 +672,7 @@
       ],
       [
         "rocsolver.dll",
-        29343232
+        29440512
       ],
       [
         ".kpack/blas_lib_gfx1100.kpack",
@@ -756,19 +756,19 @@
       ],
       [
         ".kpack/rocalution_lib_gfx1100.kpack",
-        1028822
+        1028925
       ],
       [
         ".kpack/rocalution_lib_gfx1101.kpack",
-        1025621
+        1025533
       ],
       [
         ".kpack/rocalution_lib_gfx1102.kpack",
-        1027329
+        1027435
       ],
       [
         ".kpack/rocalution_lib_gfx1103.kpack",
-        1022945
+        1027766
       ],
       [
         ".kpack/solver_lib_gfx1100.kpack",
@@ -788,19 +788,19 @@
       ],
       [
         ".kpack/sparse_lib_gfx1100.kpack",
-        16827060
+        16827074
       ],
       [
         ".kpack/sparse_lib_gfx1101.kpack",
-        16775823
+        16775837
       ],
       [
         ".kpack/sparse_lib_gfx1102.kpack",
-        16814906
+        16815026
       ],
       [
         ".kpack/sparse_lib_gfx1103.kpack",
-        16769392
+        16769506
       ],
       [
         "hipblaslt/library/gfx1100/Kernels.so-000-gfx1100.hsaco",
